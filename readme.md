@@ -27,12 +27,16 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
 
     1) ÖRNEK SORU: Öğrenci tablosundaki tüm kayıtları listeleyin.
 
-    	==CEVAP: select * from ogrenci==
+        ```sql
+        CEVAP: SELECT * FROM ogrenci
+        ```
 
 
     2) Öğrenci tablosundaki öğrencinin adını ve soyadını ve sınıfını listeleyin.
 
-    	==CEVAP: select ograd,ogrsoyad,sinif from ogrenci==
+        ```sql
+    	CEVAP: SELECT ograd,ogrsoyad,sinif from ogrenci
+        ```
 
     3) Öğrenci tablosundaki kız öğrencileri listeleyin.
 
